@@ -1,0 +1,19 @@
+<div class="form-container">
+  <h1>Crear Ejercicio</h1>
+
+  <form id="formEjercicio">
+    <label>Lección</label>
+    <select id="leccionSelect"></select>
+
+    <label>Número de preguntas</label>
+    <input type="number" id="numPreguntas" min="1">
+
+    <label>Límite de repeticiones</label>
+    <input type="number" id="limite" min="1" value="1">
+
+    <div id="preguntas"></div>
+
+    <button type="button" onclick="agregarPregunta()">Añadir pregunta</button>
+    <button type="submit">Guardar</button>
+  </form>
+</div>

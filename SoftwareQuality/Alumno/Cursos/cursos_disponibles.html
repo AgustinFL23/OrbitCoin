@@ -1,0 +1,19 @@
+<h1>Cursos disponibles</h1>
+
+<div id="listaCursos" class="grid-cursos"></div>
+
+<style>
+.grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 20px;
+}
+.curso {
+  border: 1px solid #ccc;
+  padding: 15px;
+  cursor: pointer;
+}
+.curso:hover {
+  background: #f2f2f2;
+}
+</style>
